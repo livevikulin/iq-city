@@ -1,0 +1,13 @@
+.modal#modal
+	.modal-wrapper
+		span.btn-close(data-izimodal-close="#modal" data-izimodal-transitionout="bounceOutDown")
+		p Вам приходит оповещение о <span style="color: #7081FF;">covid-19</span> в виде смс?
+		.choice-block
+			label.radio
+				input(type="radio", name="check", checked)
+				span Да
+			label.radio
+				input(type="radio", name="check")
+				span Нет
+		a.btn(href="#" data-izimodal-close="#modal" data-izimodal-transitionout="bounceOutDown") Ответить
+
